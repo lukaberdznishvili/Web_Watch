@@ -27,6 +27,7 @@ function App() {
       ))}
       </div>
       <Footer />
+
     </div>
   );
 }
@@ -70,7 +71,7 @@ function Buy(){
 
       </div>
       <div className='Buy3'>
-      <div className='div3'><img src={Photo1} className= 'Buy_photo'></img>
+      <div className='div3'><img src={Photo1} className= 'Buy_photo' alt='photo'></img>
       </div>
       </div>
     </div>
@@ -89,7 +90,7 @@ function Footer(){
           </div>
           </div>
           <div className='logos'>
-            <img src={logo1} ></img>
+            <img src={logo1} alt='photo'></img>
             <img src={logo2} className='logo2_logo'></img>
             <img src={logo3} className='logo3_logo'></img>
           </div>
